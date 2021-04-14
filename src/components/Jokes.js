@@ -1,7 +1,6 @@
 import {Weather, Joke, Pagina} from './index.js';
 
-export default () => 
-                  <Pagina
+export default () => <Pagina
                     weather={<Weather />}
                     titulo={<div><h5><b>Preparat per riure?</b> &#129315;</h5>
                                  <br/>
